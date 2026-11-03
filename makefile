@@ -16,4 +16,7 @@ SRC_A  = makefile
 
 INC_F  = include custom/include
 
+# build targets
+all: $(BUILD)/$(PROJECT).bin
+
 include vex/mkrules.mk

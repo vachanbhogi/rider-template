@@ -1,25 +1,13 @@
-#include "vex.h"
+#include "user.h"
 
 using namespace vex;
 
 competition Competition;
 
-void pre_auton() {
-}
-
-void autonomous() {
-}
-
-void usercontrol() {
-    while (true) {
-        wait(20, msec);
-    }
-}
-
 int main() {
-    Competition.autonomous(autonomous);
-    Competition.drivercontrol(usercontrol);
-    pre_auton();
+    Competition.autonomous(runAuton);
+    Competition.drivercontrol(runDriver);
+    runPreAuton();
 
     while (true) {
         wait(100, msec);
