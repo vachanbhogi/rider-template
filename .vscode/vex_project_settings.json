@@ -1,0 +1,18 @@
+{
+	"project": {
+		"name": "Rider",
+		"slot": 1,
+		"description": "VEX V5 Template by 2715N",
+		"platform": "V5",
+		"creationDate": "Mon, 02 Nov 2026 21:00:00 GMT",
+		"language": "cpp",
+		"sdkVersion": "V5_20240802_15_00_00",
+		"cpp": {
+			"includePath": []
+		}
+	},
+	"extension": {
+		"version": "0.8.2026020401",
+		"json": 1
+	}
+}
