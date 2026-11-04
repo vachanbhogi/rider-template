@@ -18,3 +18,8 @@ extern motor right_3;
 extern motor_group right_chassis;
 
 extern inertial imu;
+
+// lift motors
+extern motor lift_left;
+extern motor lift_right;
+extern motor_group lift_motors;

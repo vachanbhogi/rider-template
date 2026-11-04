@@ -15,3 +15,8 @@ motor right_3(PORT6, ratio6_1, false);
 motor_group right_chassis(right_1, right_2, right_3);
 
 inertial imu(PORT7);
+
+// example mech - lift with 2 motors facing each other
+motor lift_left(PORT18, ratio18_1, true);
+motor lift_right(PORT19, ratio18_1, false);
+motor_group lift_motors(lift_left, lift_right);
