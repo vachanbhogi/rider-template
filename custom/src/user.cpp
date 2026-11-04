@@ -3,7 +3,9 @@
 #include "driver.h"
 #include "mechs.h"
 
-void runPreAuton() {}
+void runPreAuton() {
+    mechsInit();
+}
 void runAuton() {}
 
 void runDriver() {

@@ -1,5 +1,10 @@
 #include "mechs/lift.h"
 
+void liftInit() {
+    lift_motors.setStopping(hold);
+    lift_motors.resetPosition();
+}
+
 void liftUp(double volts) {
     lift_motors.spin(fwd, volts, volt);
 }
