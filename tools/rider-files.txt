@@ -1,0 +1,18 @@
+# Rider 1.0.0
+# RW's own files in this version. tools/update.sh and tools/update.ps1 use this list to update
+# a project: they replace these files and leave everything else alone. Each line is a file's
+# SHA-256 (ignoring CR characters, so Windows line endings don't count as a change) and its path.
+40e72e484b05cd4f193d13953c3f39603962726da93da80079adcf95baf166c9  .gitignore
+0ebd7b902bccecc2b24b718c5a6849de4032a3f35b36bbd79d29d0ebe621a022  .vscode/tasks.json
+73f926cb65610f591884506ac4f9bd956f375234e892fdf74b1efff10e3faa5c  Rider.v5code
+dc36996e998ffe2a33221d9c9ef0c0e3f1e6334836a8cd26355f7c6ecd9a4eb6  include/chassis.h
+26e1754b55ba791dbf413c956e22eed1c4315bbc4eb8e5b3a33aa1294cc29cf5  include/driver.h
+830eca8229e987cb62dbc55e3cdb2f9006f0e601da90641b4862f2a465c576a6  include/vex.h
+91ed9bfdecd1e26092e8dc1756fe939f0a293b43ef7494f0850c8e5f7d32b751  makefile
+d4095f7d4db07b2ad9e4e95dc62cb6f499fbcbbfcaf7b1c87e7171507ef7f278  src/chassis.cpp
+85b4a2460dfee3ffc4cc56fdfb9397dd93c8627c9ee812f144d0472ce5f8df8e  src/driver.cpp
+9803d0cbbebfcdc940dbb4c1f0aadda2bb89ed5e41590c59f3a0d653ca4cbc9a  src/main.cpp
+9bd983b7216283ee54e26aa981e19973e9fa0f940c84e2e70d0192916474464a  tools/update.ps1
+7c874660a66d3b9d5d590ec36327d282ff08ab6b4b39afad924350d1226d5df6  tools/update.sh
+c68b2c98001579d3f8b44ff666d167d1c878689731a5a4ed7107cf00bf912fdc  vex/mkenv.mk
+ba8df215b3e2f7dd755d3e1b145ca6f4fd067b4b84ede78bdec42751c32658d8  vex/mkrules.mk

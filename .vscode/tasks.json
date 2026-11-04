@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Update Rider Template",
+            "detail": "Pull latest Rider engine files without touching custom/",
+            "type": "process",
+            "command": "/bin/sh",
+            "args": ["${workspaceFolder}/tools/update.sh"],
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "dedicated",
+                "clear": true
+            }
+        }
+    ]
+}
