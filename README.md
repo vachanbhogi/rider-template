@@ -15,7 +15,7 @@ Created by **Vachan Bhogi (2715N)**.
 ## Features
 
 - **Coordinates**: `moveToPoint(x, y, timeout)` and `turnTo(deg, timeout)` in inches and degrees (0° = north, clockwise positive).
-- **Odometry**: Sinc-based tracking ($\operatorname{sinc}(\Delta\theta/2)$) for 0, 1, or 2 tracking wheels + inertial sensor.
+- **Odometry**: Sinc-based tracking (`sinc(Δθ / 2)`) for 0, 1, or 2 tracking wheels + inertial sensor.
 - **Anti-slip**: Pauses tracking wheel integration during hard pushes or goal collisions so wheel scrub doesn't mess up your pose.
 - **Slew limiter**: Voltage slew rate to prevent tripping the 20A brain limiter under sudden direction changes.
 - **Driver modes**: Built-in split arcade, tank, and curvature (cheesy drive) with adjustable cubic curves and deadband.
