@@ -1,4 +1,5 @@
-#include "user.h"
+#include "controls.h"
+#include "autons.h"
 
 using namespace vex;
 

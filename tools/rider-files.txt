@@ -1,17 +1,23 @@
-# Rider 1.0.0
+# Rider 1.1.0
 # RW's own files in this version. tools/update.sh and tools/update.ps1 use this list to update
 # a project: they replace these files and leave everything else alone. Each line is a file's
 # SHA-256 (ignoring CR characters, so Windows line endings don't count as a change) and its path.
 40e72e484b05cd4f193d13953c3f39603962726da93da80079adcf95baf166c9  .gitignore
 0ebd7b902bccecc2b24b718c5a6849de4032a3f35b36bbd79d29d0ebe621a022  .vscode/tasks.json
 73f926cb65610f591884506ac4f9bd956f375234e892fdf74b1efff10e3faa5c  Rider.v5code
-dc36996e998ffe2a33221d9c9ef0c0e3f1e6334836a8cd26355f7c6ecd9a4eb6  include/chassis.h
-26e1754b55ba791dbf413c956e22eed1c4315bbc4eb8e5b3a33aa1294cc29cf5  include/driver.h
+44cdeaeefd26c5d6374b6536a5fbb2463dbbe44acca7bc4f8d21c780489f1b57  include/chassis.h
+5bb373a6d694f086fdec535cf81f7d1cebd43f59a9c437955dc8fc415bd8951f  include/driver.h
+032066e0d82aadb72e539ad46f836e2e6c98490608e21f006fda20db7afce214  include/nav.h
+66c60917002c916a9a1d2c438c270aea62db4fabbd91d4b26ed8e94124c834b4  include/odom.h
+4248da0a486e590136f15d0f77a6bd71c326553364dded7283747fc3a52b9329  include/screen.h
 830eca8229e987cb62dbc55e3cdb2f9006f0e601da90641b4862f2a465c576a6  include/vex.h
 91ed9bfdecd1e26092e8dc1756fe939f0a293b43ef7494f0850c8e5f7d32b751  makefile
-d4095f7d4db07b2ad9e4e95dc62cb6f499fbcbbfcaf7b1c87e7171507ef7f278  src/chassis.cpp
-85b4a2460dfee3ffc4cc56fdfb9397dd93c8627c9ee812f144d0472ce5f8df8e  src/driver.cpp
-9803d0cbbebfcdc940dbb4c1f0aadda2bb89ed5e41590c59f3a0d653ca4cbc9a  src/main.cpp
+3923ee16db478eff0dd4955c5df51f5de45b7c93deae08277085c09766a600a9  src/chassis.cpp
+8104076f0e896dab24f907004cad5e598e5b38b853ccb0df336a1ea2a22a6799  src/driver.cpp
+4b81e7f2d3ce93adccebc44cefa5007f3f50293bd8da0c3510c2594b6d2da116  src/main.cpp
+307a9bf0942f4fd7c0451268f4b17ad1c016c80688b9b10915362e065862c809  src/nav.cpp
+3cdc9cafdca913487580fa5e6e454644c290dbe50e74eda1eca60e39a56c3e33  src/odom.cpp
+953a4579b5e50419c78e6b65dfc8ebe0a2ff9651bb25eb5bac70e31036e56387  src/screen.cpp
 9bd983b7216283ee54e26aa981e19973e9fa0f940c84e2e70d0192916474464a  tools/update.ps1
 7c874660a66d3b9d5d590ec36327d282ff08ab6b4b39afad924350d1226d5df6  tools/update.sh
 c68b2c98001579d3f8b44ff666d167d1c878689731a5a4ed7107cf00bf912fdc  vex/mkenv.mk

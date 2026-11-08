@@ -1,12 +1,7 @@
-#include "user.h"
+#include "controls.h"
 #include "hardware.h"
 #include "driver.h"
 #include "mechs.h"
-
-void runPreAuton() {
-    mechsInit();
-}
-void runAuton() {}
 
 void runDriver() {
     stopChassis(coast);
@@ -22,6 +17,6 @@ void runDriver() {
             liftHold();
         }
 
-        wait(20, msec);
+        wait(10, msec);
     }
 }
